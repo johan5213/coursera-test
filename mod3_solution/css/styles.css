@@ -1,0 +1,89 @@
+body {
+	font-size:16px;
+	color: #fff;
+	background-color: #fbfcfc;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/** Header **/
+
+#header-nav {
+	background-color: #717979;
+	border-radius: 0;
+	border: 1px solid black;
+
+}
+
+#nav-list a{
+	color: black;
+	text-align: center;
+	background-color:#EBF98C;
+	font-weight: 800; 
+
+}
+
+#nav-list a:hover {
+	background: #939293;
+}
+
+
+button {
+	
+} 
+
+
+/** Title and main page **/
+
+p {color: black;
+}
+	#p1 {
+	font-weight: 800;
+	text-align: center;
+	font-size: 30px;
+	}
+
+	#p2 {
+	font-weight: 800;
+	margin-top: 30px;
+	font-size: 28px;
+
+	}
+
+	#p3 {
+	font-weight: 800;
+	margin-top: 30px;
+	font-size: 24px;
+	padding-top:10px;
+
+	}
+
+	#p4 {
+	text-align: left;
+	font-weight: 0;
+	font-size:16px;
+	padding: 0px 10px 0px 10px;
+	}
+
+.mydiv {
+	background-color: #717979;
+	color: black;
+	text-align: center; 
+	margin: 10px 10px 10px 10px; 
+
+}
+
+/** Media queries to add some margin to edge when using smal devices **/
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .mydiv {
+  	margin: 10px 80px 10px 80px;}
+  }
+
+
+  /********** Extra small devices only **********/
+@media (max-width: 767px) {
+  .mydiv {
+  	margin: 10px 80px 10px 80px;}
+}
