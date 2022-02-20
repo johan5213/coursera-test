@@ -8,11 +8,12 @@ body {
 /** Header **/
 
 #header-nav {
-	background-color: #717979;
+	background-color: #AAB7B8;
 	border-radius: 0;
 	border: 1px solid black;
 
 }
+
 
 #nav-list a{
 	color: black;
@@ -22,11 +23,14 @@ body {
 
 }
 
+/** Makes the hoover function over icons **/
+
 #nav-list a:hover {
 	background: #939293;
 }
 
 
+/** Tuggle buttom, can be designed but was not needed this time **/
 button {
 	
 } 
@@ -65,20 +69,26 @@ p {color: black;
 	}
 
 .mydiv {
-	background-color: #717979;
 	color: black;
 	text-align: center; 
-	margin: 10px 10px 10px 10px; 
+	margin: 10px 10px 10px 10px;
+	
+}
+
+.col-xs-12 {
+	background-color: #AAB7B8;
+	text-align: center;
 
 }
 
 /** Media queries to add some margin to edge when using smal devices **/
 
 
-/********** Small devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-  .mydiv {
-  	margin: 10px 80px 10px 80px;}
+/********** Applies to all devices over 767px **********/
+@media (min-width: 768px) {
+  .container {
+  	width: 100%;
+  	}
   }
 
 
